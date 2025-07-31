@@ -11,5 +11,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './dashboard.component.scss'
 })
 export class DashboardComponent {
+  
 
 }

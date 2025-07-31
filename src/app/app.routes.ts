@@ -10,7 +10,7 @@ export const routes: Routes = [
       path: '',
       component: LayoutComponent,
       children: [
-        {
+        { 
             path: 'dashboard',
             component: DashboardComponent,
             outlet: 'dashboard'
