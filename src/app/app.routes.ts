@@ -10,25 +10,25 @@ export const routes: Routes = [
       path: '',
       component: LayoutComponent,
       children: [
-        { 
-            path: 'dashboard',
-            component: DashboardComponent,
-            outlet: 'dashboard'
-          },
+        {
+          path: '',
+          component: DashboardComponent
+        },
+        {
+          path: 'dashboard',
+          component: DashboardComponent
+        },
         {
           path: 'chapter1',
-          component: Chapter1Component,
-          outlet: 'dashboard'
+          component: Chapter1Component
         },
         {
           path: 'chapter2',
-          component: Chapter2Component,
-          outlet: 'dashboard'
+          component: Chapter2Component
         },
         {
           path: 'chapter3',
-          component: Chapter3Component,
-          outlet: 'dashboard'
+          component: Chapter3Component
         }
       ]
     }
