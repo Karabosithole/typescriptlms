@@ -47,8 +47,93 @@ app-code-example {
   display: inline-block;
 
   .code-example {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    padding: 1rem;
+    border-radius: 6px;
+    display: block;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
     padding: 0.5em;
     width: fit-content;
     min-width: 300px;
   }
 }
+
+code {
+  background-color: #f4f4f4;
+  color: #d63384;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  border: 1px solid #e1e1e1;
+}
+
+// // For code inside pre tags (code blocks)
+pre code {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+  display: block;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0.5em;
+  width: fit-content;
+  min-width: 300px;
+}
+
+#first-program {
+  margin: 0 auto;
+  padding: 2px;
+  font-family: $font-family_1;
+  min-height: 10vh;
+  color: $text_primary;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#core {
+  margin: 0 auto;
+  padding: 2px;
+  font-family: $font-family_1;
+  min-height: 10vh;
+  color: $text_primary;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#errors {
+  margin: 0 auto;
+  padding: 2px;
+  font-family: $font-family_1;
+  min-height: 10vh;
+  color: $text_primary;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+// .custom-hr{
+//     height: 3px;
+//     background-color: $quinary-color; /* A blue color */
+//     border-radius: 5px; /* Rounded corners */
+//     border-color: $quinary-color;
+//     width: 50%; /* Set a specific width */
+//     margin: 4px auto;
+
+// }
+
+// code {
+//     background-color: $secondary-color;  // Your light blue
+//     color: $tertiary-color;              // Your dark blue
+//     padding: 0.2em 0.4em;
+//     border-radius: 3px;
+//     font-family: monospace;
+//     font-size: 0.9em;
+// }
