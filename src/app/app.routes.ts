@@ -4,6 +4,7 @@ import { Chapter2Component } from './chapters/chapter2/chapter2.component';
 import { Chapter3Component } from './chapters/chapter3/chapter3.component';
 import { LayoutComponent } from './layout/layout.component';
 import { DashboardComponent } from './layout/dashboard/dashboard.component';
+import { BasicsComponent } from './basics/basics.component';
 
 export const routes: Routes = [
     {
@@ -17,6 +18,10 @@ export const routes: Routes = [
         {
           path: 'dashboard',
           component: DashboardComponent
+        },
+        {
+          path: 'basics',
+          component: BasicsComponent
         },
         {
           path: 'chapter1',
