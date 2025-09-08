@@ -1,54 +1,54 @@
 //colours
 $main-color: #0091b9;
-$secondary-color: #BAE4F0;
-$tertiary-color: #004E9B;
-$quaternary-color: #FF6500;
-$quinary-color: #FFD500;
+$secondary-color: #bae4f0;
+$tertiary-color: #004e9b;
+$quaternary-color: #ff6500;
+$quinary-color: #ffd500;
 
 //text
-$font-family_1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-family_1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $text_primary: #2c2c2c;
 
 //
-.header-container{
-    margin: 0 auto;
-    padding: 0px;
-    font-family: $font-family_1;
-    min-height: 0vh;
-    color: $text_primary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-container {
+  margin: 0 auto;
+  padding: 0px;
+  font-family: $font-family_1;
+  min-height: 0vh;
+  color: $text_primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#what-is{
-    margin: 0 auto;
-    padding: 2px;
-    font-family: $font-family_1;
-    min-height: 10vh;
-    color: $text_primary;
-    max-width: 800px;        
-    margin: 0 auto;          
-    padding: 2rem; 
+#what-is {
+  margin: 0 auto;
+  padding: 2px;
+  font-family: $font-family_1;
+  min-height: 10vh;
+  color: $text_primary;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-#setup{
-    margin: 0 auto;
-    padding: 2px;
-    font-family: $font-family_1;
-    min-height: 10vh;
-    color: $text_primary;
-    max-width: 800px;        
-    margin: 0 auto;          
-    padding: 2rem; 
+#setup {
+  margin: 0 auto;
+  padding: 2px;
+  font-family: $font-family_1;
+  min-height: 10vh;
+  color: $text_primary;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 app-code-example {
-    display: inline-block;
-    
-    .code-example {
-        padding: 0.5em;
-        width: fit-content;
-        min-width: 300px;
-    }
+  display: inline-block;
+
+  .code-example {
+    padding: 0.5em;
+    width: fit-content;
+    min-width: 300px;
+  }
 }

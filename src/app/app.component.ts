@@ -1,18 +1,18 @@
-import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { CommonModule } from "@angular/common";
+import { Component } from "@angular/core";
+import { RouterModule } from "@angular/router";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
   isSidepannelCollapsed = false;
 
-  onSidebarToggle(){
-    this.isSidepannelCollapsed = !this.isSidepannelCollapsed
+  onSidebarToggle() {
+    this.isSidepannelCollapsed = !this.isSidepannelCollapsed;
   }
 }

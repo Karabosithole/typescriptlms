@@ -1,76 +1,83 @@
 <div class="header-container">
-<header> TypeScript Basics</header>
+  <header>TypeScript Basics</header>
 </div>
 
-    <main>
-        <section id="what-is">
-        <h2>What TypeScript Is (and Why It Exists)</h2>
-        <p><strong>Definition:</strong> TypeScript is a superset of JavaScript that adds static typing.</p>
-        <p><strong>Value Proposition:</strong> It helps reduce runtime bugs, provides better tooling, and enables maintainable codebases.</p>
-        <p><strong>One-liner:</strong> JavaScript that scales.</p>
-        </section>
-        
-        <section id="setup">
-            <h2>Setup & Tooling</h2>
-            <ul>
-            <li>Install TypeScript globally: <code>npm install -g typescript</code></li>
-            <li>Use the compiler: <code>tsc file.ts</code></li>
-            <li>Create a basic <code>tsconfig.json</code> for project setup:</li>
-            </ul>
-            <pre>
+<main>
+  <section id="what-is">
+    <h2>What TypeScript Is (and Why It Exists)</h2>
+    <p>
+      <strong>Definition:</strong> TypeScript is a superset of JavaScript that
+      adds static typing.
+    </p>
+    <p>
+      <strong>Value Proposition:</strong> It helps reduce runtime bugs, provides
+      better tooling, and enables maintainable codebases.
+    </p>
+    <p><strong>One-liner:</strong> JavaScript that scales.</p>
+  </section>
+
+  <section id="setup">
+    <h2>Setup & Tooling</h2>
+    <ul>
+      <li>
+        Install TypeScript globally: <code>npm install -g typescript</code>
+      </li>
+      <li>Use the compiler: <code>tsc file.ts</code></li>
+      <li>Create a basic <code>tsconfig.json</code> for project setup:</li>
+    </ul>
+    <pre>
                 <app-code-example
                 sectionTitle="TypeScript Function Example"
                 language="typescript"
                 [code]="basicsCodeExample">
                 </app-code-example>
             </pre>
-            
-            <p>Recommended Editor: Visual Studio Code.</p>
-            </section>
-            <section id="first-program">
-                <h2>The First Program</h2>
-                <p>Create <code>hello.ts</code>:</p>
-                <pre><code>let message: string = "Hello, TypeScript!";
+
+    <p>Recommended Editor: Visual Studio Code.</p>
+  </section>
+  <section id="first-program">
+    <h2>The First Program</h2>
+    <p>Create <code>hello.ts</code>:</p>
+    <pre><code>let message: string = "Hello, TypeScript!";
                 console.log(message);
                 </code></pre>
-                <p>Compile: <code>tsc hello.ts</code></p>
-                <p>Run: <code>node hello.js</code></p>
-                <p><em>Flow:</em> code → compile → run</p>
-                </section>
-                
-                <section id="core">
-                <h2>Core Language Concepts (High-Level Teaser)</h2>
-                <h3>Types</h3>
-                <pre><code>let age: number = 30;
+    <p>Compile: <code>tsc hello.ts</code></p>
+    <p>Run: <code>node hello.js</code></p>
+    <p><em>Flow:</em> code → compile → run</p>
+  </section>
+
+  <section id="core">
+    <h2>Core Language Concepts (High-Level Teaser)</h2>
+    <h3>Types</h3>
+    <pre><code>let age: number = 30;
                 let username: string = "Alice";
                 let isActive: boolean = true;
                 </code></pre>
-                
-                <h3>Variables</h3>
-                <pre><code>const pi: number = 3.14;
+
+    <h3>Variables</h3>
+    <pre><code>const pi: number = 3.14;
                 let count: number = 0;
                 </code></pre>
-                
-                <h3>Functions</h3>
-                <!-- <pre><code>function greet(name: string): string {
+
+    <h3>Functions</h3>
+    <!-- <pre><code>function greet(name: string): string {
                 return `Hello, ${name}`;
                 }
                 </code></pre> -->
-                
-                <h3>The "any" Type</h3>
-                <!-- <pre><code>let data: any = 42; // Avoid if possible
+
+    <h3>The "any" Type</h3>
+    <!-- <pre><code>let data: any = 42; // Avoid if possible
                 </code></pre> -->
-                </section>
-                
-                <section id="errors">
-                <h2>Basic Errors & Feedback Loop</h2>
-                <p>Type mismatch example:</p>
-                <!-- <pre
+  </section>
+
+  <section id="errors">
+    <h2>Basic Errors & Feedback Loop</h2>
+    <p>Type mismatch example:</p>
+    <!-- <pre
                 ><code>let count: number = "five";
                 // Error: Type 'string' is not assignable to type 'number'
                 </code>
             </pre> -->
-                <p>TypeScript’s value lies in catching these issues early.</p>
-                </section>
-
-        </main>
+    <p>TypeScript’s value lies in catching these issues early.</p>
+  </section>
+</main>
